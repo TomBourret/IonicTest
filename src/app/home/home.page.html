@@ -11,4 +11,6 @@
     The world is your oyster.
     <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
   </div>
+  <ion-button (click)="navigateToPage1()">Page 1</ion-button>
+  <ion-button [routerLink]="'/test2'" routerDirection="forward">Page 2</ion-button>
 </ion-content>
